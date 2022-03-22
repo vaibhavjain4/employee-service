@@ -15,8 +15,8 @@ public class EmployeeRepository {
     private Set<Employee> employees = new HashSet<>();
 
     public EmployeeRepository() {
-        add(new Employee(1L, 1L, "Vaibhav Jain", 30, "Architect"));
-        add(new Employee(1L, 1L, "Bhawani Uday Singh", 40, "Architect"));
+        add(new Employee(1L, 1L, "Vaibhav Jain", 40, "Architect"));
+        //add(new Employee(1L, 1L, "Bhawani Uday Singh", 40, "Architect"));
     }
 
     public Employee add(Employee employee) {
