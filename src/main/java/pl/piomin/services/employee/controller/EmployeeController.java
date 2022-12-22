@@ -11,7 +11,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.Set;
 
-@Path("/employees")
+@Path("/v2/employees")
 @Produces(MediaType.APPLICATION_JSON)
 public class EmployeeController {
 
